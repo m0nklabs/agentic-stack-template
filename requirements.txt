@@ -1,0 +1,21 @@
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Technical analysis
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Desktop notifications (optional, for signal alerts)
+plyer>=2.1.0
+
+# Optional (only needed if you configure DATABASE_URL for indicator weights/signals)
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# FastAPI (for read-only API)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# WebSocket support (for real-time market data)
+websocket-client>=1.8.0
